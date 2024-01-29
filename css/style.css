@@ -1,0 +1,92 @@
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Contents HTML Start Here */
+
+.privacy-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.privacy-heading {
+  padding-bottom: 20px;
+}
+
+.privacy-heading h1 {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.privacy-content h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.privacy-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.privacy-content p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.privacy-content a {
+  font-size: 16px;
+  line-height: 28px;
+  color: #e82a2a;
+  word-wrap: break-word;
+}
+
+.list ul {
+  padding-left: 40px;
+}
+
+.list ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.list ul li i {
+  color: #e82a2a;
+  padding-right: 10px;
+}
+
+/* Contents HTML Start End */
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .privacy-heading h1 {
+    font-size: 30px;
+  }
+
+  .privacy-content h2 {
+    font-size: 24px;
+  }
+
+  .privacy-content h3 {
+    font-size: 20px;
+  }
+
+  .list ul {
+    padding-left: 20px;
+  }
+}
